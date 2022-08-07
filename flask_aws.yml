@@ -30,7 +30,7 @@ spec:
         app: flask-aws
     spec:
       containers:
-        - name: flask-aws-image
+        - name: flask-aws
           image: CONTAINER_IMAGE
           securityContext:
             privileged: false
